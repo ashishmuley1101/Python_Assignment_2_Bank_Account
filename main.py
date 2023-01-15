@@ -22,3 +22,8 @@ class BankAccount:
           self.name = name
           self.balance = balance
 
+     # UC 3. Deposit() method which manages the deposit actions.
+     def Deposit(self, deposit):
+          self.balance = self.balance + deposit
+
+
