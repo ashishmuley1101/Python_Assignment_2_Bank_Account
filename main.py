@@ -44,6 +44,12 @@ class BankAccount:
           self.balance = self.balance - ((self.balance * 5 )/100)
           print("Current Balance :", self.balance, "Rs.")
 
+     # UC 6. display() method to display account details.
+     def display(self):
+          print("Account Number : ", self.accountNumber)
+          print("Account Holder Name : ", self.name)
+          print("Account Balance : ", self.balance, "Rs.")
+
 
 
 
