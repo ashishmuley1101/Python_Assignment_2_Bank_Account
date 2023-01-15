@@ -39,6 +39,12 @@ class BankAccount:
                print("Amount Withdrawal :", withdrawal, "Rs.")
                print("Current Balance :", self.balance, "Rs.")
 
+     # UC 5. bankFees() method to apply the bank fees with a percentage of 5% of the balance account.
+     def bankFees(self):
+          self.balance = self.balance - ((self.balance * 5 )/100)
+          print("Current Balance :", self.balance, "Rs.")
+
+
 
 
 
