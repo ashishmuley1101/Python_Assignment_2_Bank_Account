@@ -29,4 +29,16 @@ class BankAccount:
           print("Current Balance :", self.balance, "Rs.")
 
 
+      # UC 4. Withdrawal() method  which manages withdrawal actions.
+     def Withdrawal(self, withdrawal):
+
+          if (self.balance < withdrawal):
+               print("Insufficient balance to withdrawal...!")
+          else:
+               self.balance -= withdrawal
+               print("Amount Withdrawal :", withdrawal, "Rs.")
+               print("Current Balance :", self.balance, "Rs.")
+
+
+
 
