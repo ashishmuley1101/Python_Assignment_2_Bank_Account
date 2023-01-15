@@ -15,3 +15,10 @@ class BankAccount:
      accountNumber = 0
      name = ""
      balance = 0
+
+     # UC 2. Constructor with parameters: accountNumber, name and balance.
+     def __init__(self, accountNumber, name, balance):
+          self.accountNumber = accountNumber
+          self.name = name
+          self.balance = balance
+
