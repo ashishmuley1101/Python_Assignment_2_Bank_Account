@@ -24,6 +24,9 @@ class BankAccount:
 
      # UC 3. Deposit() method which manages the deposit actions.
      def Deposit(self, deposit):
-          self.balance = self.balance + deposit
+          self.balance += deposit
+          print("Amount Deposited :", deposit, "Rs.")
+          print("Current Balance :", self.balance, "Rs.")
+
 
 
